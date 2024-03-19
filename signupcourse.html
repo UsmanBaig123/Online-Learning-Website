@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="../css/signupcourse.css">
+    
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">USMAN Learning Website</h2>
+            </div>
+        </div>
+        
+            <div class="form">
+                <button class="login_button" onclick="navigateToLogin()">Login</button> <button class="signup_button">signup</button>
+                <input type="text" id="first_name" placeholder="First Name">
+                <input type="text" id="last_name" placeholder="Last Name">
+                <input type="age" id="age" placeholder="Enter your age">
+                <input type="email" id="email" placeholder="Email">
+                <input type="password" id="password" placeholder="Password">
+                <button class="btnl" type="submit" id="Signup" name="signup_submit" value="sign up">Create Account</button>
+
+
+                <div class="icon">
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+                </div>
+                
+
+            </div>
+        </div>
+    </div>
+    <script  src="../webpractice/signupcourse.js"></script>
+
+</body>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script type="module" src="../webpractice/signupcourse.js"></script>
+    <script >
+        function navigateToLogin() {
+            window.location.href = "logincourse.html"; // Redirect to the signup page
+            }
+    </script>
+</html>
+
+
+
+
